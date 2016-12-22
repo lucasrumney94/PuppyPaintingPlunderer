@@ -21,7 +21,7 @@ public class levelController : MonoBehaviour {
         {
             if (currentLevelFailedFlag == false)
             {
-                levelFailed(GameController.);
+                levelFailed(GameController.currentLevel);
                 currentLevelFailedFlag = true;
             }
         }
@@ -29,7 +29,7 @@ public class levelController : MonoBehaviour {
         {
             if (currentLevelFailedFlag == false)
             {
-                levelRestarted();
+                levelRestarted(GameController.currentLevel);
                 currentLevelFailedFlag = true;
             }
         }
@@ -37,14 +37,20 @@ public class levelController : MonoBehaviour {
         
 	}
 
-    void levelFailed(int )
+    void levelFailed(int currentLevel)
     {
-
+        foreach (GameObject g in GameObject.FindGameObjectsWithTag("fail" + currentLevel.ToString()))
+        {
+            g.SetActive(true);
+        }
 
     }
-    void levelRestarted()
+    void levelRestarted(int currentLevel)
     {
-
+        foreach (GameObject g in GameObject.FindGameObjectsWithTag("fail" + currentLevel.ToString()))
+        {
+            g.SetActive(false);
+        }
 
     }
 }
