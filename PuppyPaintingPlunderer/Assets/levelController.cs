@@ -27,10 +27,10 @@ public class levelController : MonoBehaviour {
         }
         else
         {
-            if (currentLevelFailedFlag == false)
+            if (currentLevelFailedFlag == true)
             {
                 levelRestarted(GameController.currentLevel);
-                currentLevelFailedFlag = true;
+                currentLevelFailedFlag = false;
             }
         }
 
