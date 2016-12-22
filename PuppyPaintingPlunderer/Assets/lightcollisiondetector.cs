@@ -40,7 +40,9 @@ public class lightcollisiondetector : MonoBehaviour
                 if (hit.collider.tag.Equals("Player"))
                 {
                     Debug.Log("player hit!");
-                    //Reset Level Throw
+                    //Reset Level
+                    levelController.currentLevelFailed = true;
+                    break;
                 }
             }
         }
