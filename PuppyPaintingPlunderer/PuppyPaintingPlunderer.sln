@@ -1,24 +1,11 @@
-<<<<<<< HEAD
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
 Project("{B4D1326A-45B1-9592-1812-4D6A031B9B7D}") = "PuppyPaintingPlunderer", "Assembly-CSharp-firstpass.csproj", "{F42CA525-1D6F-F0AE-D179-0AE77CB0AF7D}"
-||||||| merged common ancestors
-<<<<<<< HEAD
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{B4D1326A-45B1-9592-1812-4D6A031B9B7D}") = "PuppyPaintingPlunderer", "Assembly-CSharp-firstpass.csproj", "{F42CA525-1D6F-F0AE-D179-0AE77CB0AF7D}"
-=======
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PuppyPaintingPlunderer.CSharp.Plugins", "PuppyPaintingPlunderer.CSharp.Plugins.csproj", "{237DAA0E-5FC6-A2A1-FF85-CAC69B65F742}"
->>>>>>> 4b86aa89627afde8f043269221774862a369f5af
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PuppyPaintingPlunderer.CSharp", "PuppyPaintingPlunderer.CSharp.csproj", "{1D54FA56-D541-D284-7503-EB9B1E2CEF03}"
+Project("{B4D1326A-45B1-9592-1812-4D6A031B9B7D}") = "PuppyPaintingPlunderer", "Assembly-CSharp.csproj", "{DC70C23F-1925-792C-BF7D-EBD7C0330F2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PuppyPaintingPlunderer.CSharp.Editor", "PuppyPaintingPlunderer.CSharp.Editor.csproj", "{9CA05F57-DCD0-CBA0-B66F-6FC62A0883A6}"
+Project("{B4D1326A-45B1-9592-1812-4D6A031B9B7D}") = "PuppyPaintingPlunderer", "Assembly-CSharp-Editor.csproj", "{440523F8-60C2-E893-A114-49300A50B900}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,20 +13,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{237DAA0E-5FC6-A2A1-FF85-CAC69B65F742}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{237DAA0E-5FC6-A2A1-FF85-CAC69B65F742}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{237DAA0E-5FC6-A2A1-FF85-CAC69B65F742}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{237DAA0E-5FC6-A2A1-FF85-CAC69B65F742}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1D54FA56-D541-D284-7503-EB9B1E2CEF03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1D54FA56-D541-D284-7503-EB9B1E2CEF03}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1D54FA56-D541-D284-7503-EB9B1E2CEF03}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1D54FA56-D541-D284-7503-EB9B1E2CEF03}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9CA05F57-DCD0-CBA0-B66F-6FC62A0883A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9CA05F57-DCD0-CBA0-B66F-6FC62A0883A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9CA05F57-DCD0-CBA0-B66F-6FC62A0883A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9CA05F57-DCD0-CBA0-B66F-6FC62A0883A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F42CA525-1D6F-F0AE-D179-0AE77CB0AF7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F42CA525-1D6F-F0AE-D179-0AE77CB0AF7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F42CA525-1D6F-F0AE-D179-0AE77CB0AF7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F42CA525-1D6F-F0AE-D179-0AE77CB0AF7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC70C23F-1925-792C-BF7D-EBD7C0330F2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC70C23F-1925-792C-BF7D-EBD7C0330F2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC70C23F-1925-792C-BF7D-EBD7C0330F2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC70C23F-1925-792C-BF7D-EBD7C0330F2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{440523F8-60C2-E893-A114-49300A50B900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{440523F8-60C2-E893-A114-49300A50B900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{440523F8-60C2-E893-A114-49300A50B900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{440523F8-60C2-E893-A114-49300A50B900}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal

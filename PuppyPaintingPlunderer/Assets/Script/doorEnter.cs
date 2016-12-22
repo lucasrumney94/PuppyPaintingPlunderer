@@ -11,8 +11,7 @@ public class doorEnter : MonoBehaviour {
 	[SerializeField]
 	private GameObject doorHighlight;
 
-	[SerializeField]
-	private Vector3 nextLevelDoor;
+
 
 
 	void start() {
