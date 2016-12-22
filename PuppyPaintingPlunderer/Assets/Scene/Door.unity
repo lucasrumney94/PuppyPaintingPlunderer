@@ -458,6 +458,11 @@ Prefab:
       propertyPath: nextLevelDoor
       value: 
       objectReference: {fileID: 154189639}
+    - target: {fileID: 114291297281167666, guid: 6156ea7f382b4428fb3d088c6abf7066,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1685085991}
     - target: {fileID: 114852145147106164, guid: 6156ea7f382b4428fb3d088c6abf7066,
         type: 2}
       propertyPath: playerTransform
@@ -466,68 +471,6 @@ Prefab:
     - target: {fileID: 1294969658816876, guid: 6156ea7f382b4428fb3d088c6abf7066, type: 2}
       propertyPath: m_Name
       value: room1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114291297281167666, guid: 6156ea7f382b4428fb3d088c6abf7066,
-        type: 2}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1685085991}
-    - target: {fileID: 4513794802181492, guid: 6156ea7f382b4428fb3d088c6abf7066, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 4.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 4513794802181492, guid: 6156ea7f382b4428fb3d088c6abf7066, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 2.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 108120691380618832, guid: 6156ea7f382b4428fb3d088c6abf7066,
-        type: 2}
-      propertyPath: m_Intensity
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1921389937194502, guid: 6156ea7f382b4428fb3d088c6abf7066, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 65152788275904112, guid: 6156ea7f382b4428fb3d088c6abf7066,
-        type: 2}
-      propertyPath: m_Size.z
-      value: 4.184122
-      objectReference: {fileID: 0}
-    - target: {fileID: 65152788275904112, guid: 6156ea7f382b4428fb3d088c6abf7066,
-        type: 2}
-      propertyPath: m_Center.x
-      value: -0.001501931
-      objectReference: {fileID: 0}
-    - target: {fileID: 65152788275904112, guid: 6156ea7f382b4428fb3d088c6abf7066,
-        type: 2}
-      propertyPath: m_Center.z
-      value: 2.3386865
-      objectReference: {fileID: 0}
-    - target: {fileID: 65588191662868826, guid: 6156ea7f382b4428fb3d088c6abf7066,
-        type: 2}
-      propertyPath: m_Size.x
-      value: 1.8233807
-      objectReference: {fileID: 0}
-    - target: {fileID: 65588191662868826, guid: 6156ea7f382b4428fb3d088c6abf7066,
-        type: 2}
-      propertyPath: m_Size.y
-      value: 10.833896
-      objectReference: {fileID: 0}
-    - target: {fileID: 65588191662868826, guid: 6156ea7f382b4428fb3d088c6abf7066,
-        type: 2}
-      propertyPath: m_Size.z
-      value: 3.7679253
-      objectReference: {fileID: 0}
-    - target: {fileID: 65588191662868826, guid: 6156ea7f382b4428fb3d088c6abf7066,
-        type: 2}
-      propertyPath: m_Center.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 65588191662868826, guid: 6156ea7f382b4428fb3d088c6abf7066,
-        type: 2}
-      propertyPath: m_Center.z
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6156ea7f382b4428fb3d088c6abf7066, type: 2}
@@ -590,6 +533,10 @@ Prefab:
     - target: {fileID: 146900, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
       propertyPath: m_Name
       value: SteamVR[CameraRig]
+      objectReference: {fileID: 0}
+    - target: {fileID: 146900, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}

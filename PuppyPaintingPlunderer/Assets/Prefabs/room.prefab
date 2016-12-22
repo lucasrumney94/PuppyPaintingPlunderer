@@ -224,7 +224,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1881534672230856}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.8637867, y: 6.85, z: -1.0129621}
+  m_LocalPosition: {x: 4.01, y: 2.5, z: -1.0129621}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4004252045757008}
@@ -600,8 +600,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 5, y: 6.0967503, z: 1.8374413}
-  m_Center: {x: -0.0015723105, y: 3.0483685, z: 1.165295}
+  m_Size: {x: 5, y: 6.0967503, z: 4.184122}
+  m_Center: {x: -0.001501931, y: 3.0483685, z: 2.3386865}
 --- !u!65 &65471026370886752
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -624,7 +624,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2664781, y: 10.833902, z: 5}
+  m_Size: {x: 1.8233807, y: 10.833896, z: 3.7679253}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &65758431510705432
 BoxCollider:
@@ -648,7 +648,7 @@ Light:
   serializedVersion: 7
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2.5
+  m_Intensity: 1.5
   m_Range: 15
   m_SpotAngle: 30
   m_CookieSize: 10

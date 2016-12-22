@@ -14,7 +14,7 @@ public class doorKnobEnter : MonoBehaviour {
 
 
 	void Start () {
-		player = GameObject.FindGameObjectWithTag ("MainCamera");
+		player = GameObject.FindGameObjectWithTag ("Player");
 		nextLevelDoorPosition = nextLevelDoor.transform.position;
 
 	}
