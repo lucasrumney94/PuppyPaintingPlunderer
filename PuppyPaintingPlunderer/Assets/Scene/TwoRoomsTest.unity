@@ -394,6 +394,11 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.12, y: 0.12, z: 0.12}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!20 &224650117 stripped
+Camera:
+  m_PrefabParentObject: {fileID: 2082592, guid: 4d293c8e162f3874b982baadd71153d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 224650114}
 --- !u!1 &688868360
 GameObject:
   m_ObjectHideFlags: 0
@@ -571,7 +576,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ShadowmapMode: 0
   m_Cameras:
-  - {fileID: 0}
+  - {fileID: 224650117}
   m_CurrentCamera: {fileID: 0}
   m_Size: {x: 10, y: 10, z: 20}
   m_SpotNear: 0.05
