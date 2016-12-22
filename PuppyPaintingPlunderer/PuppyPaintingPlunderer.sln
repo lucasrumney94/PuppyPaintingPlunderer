@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
@@ -34,64 +33,3 @@ Global
 		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
-||||||| merged common ancestors
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PuppyPaintingPlunderer.CSharp", "PuppyPaintingPlunderer.CSharp.csproj", "{1D54FA56-D541-D284-7503-EB9B1E2CEF03}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PuppyPaintingPlunderer.CSharp.Editor", "PuppyPaintingPlunderer.CSharp.Editor.csproj", "{9CA05F57-DCD0-CBA0-B66F-6FC62A0883A6}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1D54FA56-D541-D284-7503-EB9B1E2CEF03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1D54FA56-D541-D284-7503-EB9B1E2CEF03}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1D54FA56-D541-D284-7503-EB9B1E2CEF03}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1D54FA56-D541-D284-7503-EB9B1E2CEF03}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9CA05F57-DCD0-CBA0-B66F-6FC62A0883A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9CA05F57-DCD0-CBA0-B66F-6FC62A0883A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9CA05F57-DCD0-CBA0-B66F-6FC62A0883A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9CA05F57-DCD0-CBA0-B66F-6FC62A0883A6}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-EndGlobal
-=======
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PuppyPaintingPlunderer.CSharp.Plugins", "PuppyPaintingPlunderer.CSharp.Plugins.csproj", "{237DAA0E-5FC6-A2A1-FF85-CAC69B65F742}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PuppyPaintingPlunderer.CSharp", "PuppyPaintingPlunderer.CSharp.csproj", "{1D54FA56-D541-D284-7503-EB9B1E2CEF03}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PuppyPaintingPlunderer.CSharp.Editor", "PuppyPaintingPlunderer.CSharp.Editor.csproj", "{9CA05F57-DCD0-CBA0-B66F-6FC62A0883A6}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{237DAA0E-5FC6-A2A1-FF85-CAC69B65F742}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{237DAA0E-5FC6-A2A1-FF85-CAC69B65F742}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{237DAA0E-5FC6-A2A1-FF85-CAC69B65F742}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{237DAA0E-5FC6-A2A1-FF85-CAC69B65F742}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1D54FA56-D541-D284-7503-EB9B1E2CEF03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1D54FA56-D541-D284-7503-EB9B1E2CEF03}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1D54FA56-D541-D284-7503-EB9B1E2CEF03}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1D54FA56-D541-D284-7503-EB9B1E2CEF03}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9CA05F57-DCD0-CBA0-B66F-6FC62A0883A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9CA05F57-DCD0-CBA0-B66F-6FC62A0883A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9CA05F57-DCD0-CBA0-B66F-6FC62A0883A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9CA05F57-DCD0-CBA0-B66F-6FC62A0883A6}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-EndGlobal
->>>>>>> 8bbd9dae7b5c44b970bd21de26e3fd775af81c27
