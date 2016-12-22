@@ -22,6 +22,7 @@ public class doorKnobEnter : MonoBehaviour {
 	void OnTriggerEnter(Collider other) {
 		if (other.gameObject.tag.Equals ("MainCamera")) {
 			player.transform.position = nextLevelDoorPosition;
+			Debug.Log("Sould enter Room2");
 		}
 	}
 	

@@ -27,6 +27,14 @@ public class doorEnter : MonoBehaviour {
 	void OnTriggerEnter(Collider other) {
 		if (other.gameObject.tag.Equals ("MainCamera")) {
 			doorHighlight.SetActive(true);
+			Debug.Log ("Collide with door, light should be on");
+		}
+	}
+
+	void OnTriggerExit(Collider other) {
+		if (other.gameObject.tag.Equals ("MainCamera")) {
+			doorHighlight.SetActive(false);
+			Debug.Log ("Exit Collide with door, light should be off");
 		}
 	}
 }
