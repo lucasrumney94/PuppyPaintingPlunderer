@@ -12,14 +12,12 @@ public class lightcollisiondetector : MonoBehaviour
     public float raycastFrequency; //Hz
 
     private float spotAngle; //degrees
-    private Vector3 forward; 
-
+    private Vector3 raycastDirection;
 
 	// Use this for initialization
 	void Start ()
     {
-        spotAngle = this.GetComponent<Light>().spotAngle;
-        forward = transform.forward;
+        spotAngle = this.GetComponentInChildren<Light>().spotAngle;
 
 
 	}
@@ -28,12 +26,28 @@ public class lightcollisiondetector : MonoBehaviour
     {
         RaycastHit hit;
 
-        if (Physics.Raycast(transform.position, forward, out hit))
+        for (int i = 0; i < numberOfRaycasts; i++)
         {
-            if (hit.transform.gameObject.tag == "Player")
+
+            raycastDirection = transform.forward + new Vector3(0.0f, 0.0f, 2*(1 / Mathf.Sin(spotAngle))) + Random.insideUnitSphere;
+
+            raycastDirection = transform.TransformDirection(raycastDirection);
+
+            Debug.DrawRay(transform.position, raycastDirection);
+
+            if (Physics.Raycast(transform.position, raycastDirection, out hit))
             {
-                Debug.Log("player hit!");
+                if (hit.collider.tag.Equals("Player"))
+                {
+                    Debug.Log("player hit!");
+                    //Reset Level
+                    levelController.currentLevelFailed = true;
+                    break;
+                }
             }
-        }	
+        }
+        
+
+        
 	}
 }
