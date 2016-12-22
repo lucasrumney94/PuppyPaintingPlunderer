@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour {
 
-    public static int currentLevel = 1;
+    public static int currentLevel = 2;
 
 	// Use this for initialization
 	void Start ()

@@ -18,7 +18,7 @@ public class currentLevelRestarter : MonoBehaviour {
 	}
     void OnTriggerEnter(Collider other)
     {
-        if (other.tag.Equals("Player"))
+        if (other.tag.Equals("MainCamera"))
         {
             levelController.currentLevelFailed = false;
         }

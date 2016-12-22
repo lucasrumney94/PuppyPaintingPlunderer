@@ -37,7 +37,7 @@ public class lightcollisiondetector : MonoBehaviour
 
             if (Physics.Raycast(transform.position, raycastDirection, out hit))
             {
-                if (hit.collider.tag.Equals("Player"))
+                if (hit.collider.tag.Equals("MainCamera"))
                 {
                     Debug.Log("player hit!");
                     //Reset Level
