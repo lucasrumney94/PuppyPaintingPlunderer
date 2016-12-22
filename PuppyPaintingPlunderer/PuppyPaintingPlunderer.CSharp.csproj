@@ -97,6 +97,8 @@
     <Compile Include="Assets\LightShafts\LightShafts-master\LightShafts-master\LightShafts.Resources.cs" />
     <Compile Include="Assets\LightShafts\LightShafts-master\LightShafts-master\LightShafts.Utils.cs" />
     <Compile Include="Assets\LightShafts\LightShafts-master\LightShafts-master\LightShafts.cs" />
+    <Compile Include="Assets\Script\doorEnter.cs" />
+    <Compile Include="Assets\Script\doorKnobEnter.cs" />
     <Compile Include="Assets\Script\scaleToRoomScale.cs" />
     <Compile Include="Assets\SteamVR\Plugins\openvr_api.cs" />
     <Compile Include="Assets\SteamVR\Scripts\SteamVR.cs" />

@@ -7,6 +7,8 @@ TagManager:
   - Highlight
   - Room_2
   - Room_1
+  - fail1
+  - fail2
   layers:
   - Default
   - TransparentFX
