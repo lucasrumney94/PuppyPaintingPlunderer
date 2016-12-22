@@ -31,7 +31,7 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &1173006240491568
 GameObject:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
@@ -44,7 +44,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &1259975298409086
 GameObject:
   m_ObjectHideFlags: 0
@@ -152,7 +152,7 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &1822457441028436
 GameObject:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
@@ -195,7 +195,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1586415305537114}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.80378675, y: 8, z: -5.102962}
+  m_LocalPosition: {x: 0.80378675, y: 8, z: -2.84}
   m_LocalScale: {x: 0.25000012, y: 16, z: 8}
   m_Children: []
   m_Father: {fileID: 4745578704936240}
@@ -208,7 +208,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1861166502556042}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.3362134, y: 8, z: -1.202962}
+  m_LocalPosition: {x: 2.13, y: 8, z: -1.202962}
   m_LocalScale: {x: 0.25, y: 16, z: 8}
   m_Children: []
   m_Father: {fileID: 4745578704936240}
@@ -234,7 +234,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1604254007196588}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.80378675, y: 8, z: 2.8670382}
+  m_LocalPosition: {x: 0.80378675, y: 8, z: 0.6}
   m_LocalScale: {x: 0.25000012, y: 16, z: 8}
   m_Children: []
   m_Father: {fileID: 4745578704936240}
@@ -260,9 +260,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1390913188130004}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 4.64, y: -0, z: -1.11}
-  m_LocalScale: {x: 0.50000024, y: 0.5, z: 0.28578764}
-  m_Children: []
+  m_LocalPosition: {x: 4.5273, y: -0.063616, z: -1.1106}
+  m_LocalScale: {x: 0.21745573, y: 0.24633265, z: 0.11946827}
+  m_Children:
+  - {fileID: 4821237496350392}
+  - {fileID: 4807127365601674}
   m_Father: {fileID: 4745578704936240}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
@@ -283,8 +285,6 @@ Transform:
   - {fileID: 4496395458979032}
   - {fileID: 4459799719036698}
   - {fileID: 4689029958880940}
-  - {fileID: 4807127365601674}
-  - {fileID: 4821237496350392}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -294,12 +294,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1173006240491568}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.4637866, y: -0.17605948, z: 0.517038}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0.04, y: 6.24, z: 1.25}
+  m_LocalScale: {x: 8.370425, y: 4.0595512, z: 4.598638}
   m_Children: []
-  m_Father: {fileID: 4745578704936240}
-  m_RootOrder: 7
+  m_Father: {fileID: 4689029958880940}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4821237496350392
 Transform:
@@ -307,12 +307,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1822457441028436}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.328, y: 1, z: -1.415}
-  m_LocalScale: {x: 0.2044366, y: 0.2044365, z: 0.2044365}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0.66864204, y: 2.982211, z: 1.1659992}
+  m_LocalScale: {x: 0.99168277, y: 0.48095325, z: 0.54482126}
   m_Children: []
-  m_Father: {fileID: 4745578704936240}
-  m_RootOrder: 8
+  m_Father: {fileID: 4689029958880940}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4886108739425596
 Transform:
