@@ -6,7 +6,9 @@ using UnityEngine.UI;
 public class blinkoffText : MonoBehaviour {
 
     public float timeToBlinkOff = 2.0f;
-    public int blinkLength = 5000; 
+    public int blinkLength = 500;
+    public float flashSpeed = 0.5f;
+
     private Text blinkText;
 
     private bool[] truefalse;
@@ -35,10 +37,14 @@ public class blinkoffText : MonoBehaviour {
     {
         yield return new WaitForSeconds(time);
 
+        
+
         for (int i = 0; i < blinkLength; i++)
         {
-            Debug.Log(Random.Range(0, 2));
+            Debug.Log(truefalse[Random.Range(0, 2)]);
+            flashSpeed -= 0.01f;
             blinkText.enabled = truefalse[Random.Range(0, 2)];
+            yield return new WaitForSeconds(flashSpeed);
         }
         blinkText.enabled = false;
     }
