@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -13,7 +13,8 @@ public class doorKnobEnter : MonoBehaviour {
 	private Vector3 nextLevelDoorPosition; 
 
 
-	void Start () {
+	void Start ()
+    {
 		player = GameObject.FindGameObjectWithTag ("Player");
 		nextLevelDoorPosition = nextLevelDoor.transform.position;
 
