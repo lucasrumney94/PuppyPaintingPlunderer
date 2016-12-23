@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 61dbd8e204eb5c04b805b57d6e403448
+timeCreated: 1482436266
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Rounded Eroded
+  fontNames:
+  - Rounded Eroded
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour {
 
+    [SerializeField]
     public static int currentLevel = 2;
 
 	// Use this for initialization

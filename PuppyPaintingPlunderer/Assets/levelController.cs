@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class levelController : MonoBehaviour {
 
+
+    [SerializeField]
     public static bool currentLevelFailed = false;
 
+    [SerializeField]
     private bool currentLevelFailedFlag = false;
 
 	// Use this for initialization
@@ -41,6 +44,8 @@ public class levelController : MonoBehaviour {
     {
         foreach (GameObject g in GameObject.FindGameObjectsWithTag("fail" + currentLevel.ToString()))
         {
+
+            Debug.Log(g.name + " shown on failure");
             g.SetActive(true);
         }
 
@@ -50,6 +55,7 @@ public class levelController : MonoBehaviour {
         foreach (GameObject g in GameObject.FindGameObjectsWithTag("fail" + currentLevel.ToString()))
         {
             g.SetActive(false);
+            Debug.Log(g.name + " hidden on restart");
         }
 
     }

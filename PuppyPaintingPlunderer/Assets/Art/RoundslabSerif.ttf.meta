@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: fb6d7b430a56f3d43870786756d82f81
+timeCreated: 1482436267
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: RoundslabSerif
+  fontNames:
+  - RoundslabSerif
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
