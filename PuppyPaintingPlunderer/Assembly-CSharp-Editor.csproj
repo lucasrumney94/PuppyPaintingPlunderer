@@ -147,6 +147,7 @@
      <None Include="Assets\LightShafts\LightShafts-master\LightShafts-master\Raymarch.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
      <None Include="Assets\SteamVR\readme.txt" />
+     <None Include="Assets\Art\OFL.txt" />
      <None Include="Assets\LightShafts\LightShafts-master\LightShafts-master\FinalInterpolation.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
