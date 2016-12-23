@@ -82,6 +82,7 @@
      <Compile Include="Assets\SteamVR\Scripts\SteamVR_TrackedObject.cs" />
      <Compile Include="Assets\SteamVR\Scripts\SteamVR_UpdatePoses.cs" />
      <Compile Include="Assets\SteamVR\Scripts\SteamVR_Utils.cs" />
+     <Compile Include="Assets\blinkoffText.cs" />
      <Compile Include="Assets\currentLevelRestarter.cs" />
      <Compile Include="Assets\levelController.cs" />
      <Compile Include="Assets\lightcollisiondetector.cs" />
@@ -166,6 +167,7 @@
      <None Include="Assets\LightShafts\LightShafts-master\LightShafts-master\Raymarch.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
      <None Include="Assets\SteamVR\readme.txt" />
+     <None Include="Assets\Art\OFL.txt" />
      <None Include="Assets\LightShafts\LightShafts-master\LightShafts-master\FinalInterpolation.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
