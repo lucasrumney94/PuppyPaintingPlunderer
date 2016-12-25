@@ -1,6 +1,11 @@
-﻿<Properties StartupItem="PuppyPaintingPlunderer.CSharp.Plugins.csproj">
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/doorEnter.cs">
+    <Files>
+      <File FileName="Assets/Script/doorEnter.cs" Line="16" Column="2" />
+      <File FileName="Assets/Script/doorKnobEnter.cs" Line="17" Column="53" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
