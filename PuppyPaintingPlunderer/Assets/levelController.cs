@@ -11,11 +11,24 @@ public class levelController : MonoBehaviour {
     [SerializeField]
     private bool currentLevelFailedFlag = false;
 
-	// Use this for initialization
-	void Start ()
+    private List<List<GameObject>> listOfLevelFailObjects;
+
+    // Use this for initialization
+    void Start()
     {
-		
-	}
+        listOfLevelFailObjects = new List<List<GameObject>>();
+        for (int i = 0; i < 6; i++)
+        {
+            listOfLevelFailObjects.Add(new List<GameObject>(GameObject.FindGameObjectsWithTag("fail" + GameController.currentLevel)));
+            foreach (GameObject g in listOfLevelFailObjects[i])
+            {
+                g.SetActive(false);
+                Debug.Log(g.name + " hidden initially");
+            }
+        }
+
+        
+    }
 	
 	// Update is called once per frame
 	void Update ()
@@ -42,9 +55,10 @@ public class levelController : MonoBehaviour {
 
     void levelFailed(int currentLevel)
     {
-        foreach (GameObject g in GameObject.FindGameObjectsWithTag("fail" + currentLevel.ToString()))
+        Debug.Log("level Failed!");
+        
+        foreach (GameObject g in listOfLevelFailObjects[currentLevel])
         {
-
             Debug.Log(g.name + " shown on failure");
             g.SetActive(true);
         }
@@ -52,7 +66,7 @@ public class levelController : MonoBehaviour {
     }
     void levelRestarted(int currentLevel)
     {
-        foreach (GameObject g in GameObject.FindGameObjectsWithTag("fail" + currentLevel.ToString()))
+        foreach (GameObject g in listOfLevelFailObjects[currentLevel - 1])
         {
             g.SetActive(false);
             Debug.Log(g.name + " hidden on restart");

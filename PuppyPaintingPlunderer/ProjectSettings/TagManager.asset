@@ -11,6 +11,9 @@ TagManager:
   - fail2
   - Room_3
   - fail3
+  - fail4
+  - fail5
+  - fail6
   layers:
   - Default
   - TransparentFX
