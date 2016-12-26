@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Goal
+  m_Name: EnterDoor
   m_Shader: {fileID: 4800000, guid: 963484209d11fd7f110076aa44295342, type: 3}
   m_ShaderKeywords: _ALPHAPREMULTIPLY_ON _EMISSION _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
   m_LightmapFlags: 1

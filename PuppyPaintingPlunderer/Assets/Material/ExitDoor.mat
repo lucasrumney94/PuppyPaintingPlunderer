@@ -6,9 +6,9 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Boolshelf
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _EMISSION _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+  m_Name: ExitDoor
+  m_Shader: {fileID: 4800000, guid: 963484209d11fd7f110076aa44295342, type: 3}
+  m_ShaderKeywords: _ALPHAPREMULTIPLY_ON _EMISSION _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
   m_LightmapFlags: 1
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -19,7 +19,7 @@ Material:
         name: _BumpMap
       second:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 1, y: 2}
         m_Offset: {x: 0, y: 0}
     - first:
         name: _DetailAlbedoMap
@@ -43,13 +43,13 @@ Material:
         name: _EmissionMap
       second:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 2}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
         name: _MainTex
       second:
-        m_Texture: {fileID: 2800000, guid: d78012dc38bcd4124b16858f236d70f2, type: 3}
-        m_Scale: {x: 1, y: 2}
+        m_Texture: {fileID: 2800000, guid: c7740785a37b24633a9000ec2c22cf99, type: 3}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
         name: _MetallicGlossMap
@@ -69,25 +69,46 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Ramp
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SpecGlossMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ToonShade
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
+    - first:
+        name: _BumpAmt
+      second: 20
     - first:
         name: _BumpScale
       second: 1
     - first:
         name: _Cutoff
-      second: 0.5
+      second: 0.52
     - first:
         name: _DetailNormalMapScale
       second: 1
     - first:
         name: _DstBlend
-      second: 0
+      second: 10
     - first:
         name: _GlossMapScale
-      second: 1
+      second: 0.579
     - first:
         name: _Glossiness
-      second: 0
+      second: 0.74
     - first:
         name: _GlossyReflections
       second: 1
@@ -96,10 +117,13 @@ Material:
       second: 0
     - first:
         name: _Mode
-      second: 0
+      second: 3
     - first:
         name: _OcclusionStrength
       second: 1
+    - first:
+        name: _Outline
+      second: 0.002
     - first:
         name: _Parallax
       second: 0.02
@@ -117,11 +141,20 @@ Material:
       second: 0
     - first:
         name: _ZWrite
-      second: 1
+      second: 0
     m_Colors:
     - first:
         name: _Color
-      second: {r: 1, g: 1, b: 1, a: 1}
+      second: {r: 0.68235296, g: 0.5254902, b: 0.20784314, a: 1}
+    - first:
+        name: _EmisColor
+      second: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 0}
     - first:
         name: _EmissionColor
-      second: {r: 0, g: 0, b: 0, a: 1}
+      second: {r: 0.7607844, g: 0.7607844, b: 0.7607844, a: 1}
+    - first:
+        name: _OutlineColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _SpecColor
+      second: {r: 0.85098046, g: 0.81568635, b: 0.8196079, a: 1}
