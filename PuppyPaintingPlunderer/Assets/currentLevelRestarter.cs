@@ -21,6 +21,7 @@ public class currentLevelRestarter : MonoBehaviour {
         if (other.tag.Equals("MainCamera"))
         {
             levelController.currentLevelFailed = false;
+            //Debug.Log("Restart Sphere triggered!");
         }
     }
 }
