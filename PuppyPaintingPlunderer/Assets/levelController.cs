@@ -19,11 +19,11 @@ public class levelController : MonoBehaviour {
         listOfLevelFailObjects = new List<List<GameObject>>();
         for (int i = 0; i < 6; i++)
         {
-            listOfLevelFailObjects.Add(new List<GameObject>(GameObject.FindGameObjectsWithTag("fail" + GameController.currentLevel)));
+            listOfLevelFailObjects.Add(new List<GameObject>(GameObject.FindGameObjectsWithTag("fail" + (i+1).ToString())));
             foreach (GameObject g in listOfLevelFailObjects[i])
             {
                 g.SetActive(false);
-                Debug.Log(g.name + " hidden initially");
+                //Debug.Log(g.name + " hidden initially");
             }
         }
 
@@ -55,11 +55,9 @@ public class levelController : MonoBehaviour {
 
     void levelFailed(int currentLevel)
     {
-        Debug.Log("level Failed!");
-        
-        foreach (GameObject g in listOfLevelFailObjects[currentLevel])
+        foreach (GameObject g in listOfLevelFailObjects[currentLevel-1])
         {
-            Debug.Log(g.name + " shown on failure");
+            //Debug.Log(g.name + " shown on failure");
             g.SetActive(true);
         }
 
@@ -69,7 +67,9 @@ public class levelController : MonoBehaviour {
         foreach (GameObject g in listOfLevelFailObjects[currentLevel - 1])
         {
             g.SetActive(false);
-            Debug.Log(g.name + " hidden on restart");
+            //Debug.Log(g.name + " hidden on restart");
+
+            //play next retry dialogue too
         }
 
     }

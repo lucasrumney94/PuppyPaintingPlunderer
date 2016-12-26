@@ -26,5 +26,7 @@ public class GameController : MonoBehaviour {
     public static void incrementLevel()
     {
         currentLevel++;
+        //play next level dialogue too
+
     }
 }
